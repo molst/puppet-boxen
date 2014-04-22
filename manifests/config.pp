@@ -37,6 +37,9 @@ class boxen::config (
     $repo_url_template,
   )
 
+#  notice("YYYYY homebrewdir: ${homebrewdir}")
+#  notice("YYYYY bconf hbdir: ${boxen::config::homebrewdir}")
+
   file { [$home,
           $srcdir,
           $bindir,
